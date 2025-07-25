@@ -1,0 +1,17 @@
+[package]
+name = "rs-clear"
+version = "0.1.0"
+edition = "2024"
+
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 'z'
+panic = 'abort'
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+clap-cargo = "0.16.0"
+inquire = "0.7.5"
+walkdir = "2.5.0"
