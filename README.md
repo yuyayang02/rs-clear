@@ -8,6 +8,12 @@ English | [中文](./README-CN.md)
 
 ---
 
+## 📝 background
+
+one day i realized my d drive was running out of space. while cleaning up unused files manually, i found rust build caches took up a lot of room — especially from projects that i wasn’t actively working on anymore. after clearing those `target` folders, i freed up almost 50GB! so i decided to create this little tool to help quickly find and delete those rust compilation caches, making disk cleanup easier and faster.
+
+---
+
 ## ✨ Features
 
 * Recursively scan for `Cargo.toml` files
